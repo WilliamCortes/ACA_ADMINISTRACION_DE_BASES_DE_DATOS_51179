@@ -1,0 +1,1046 @@
+[
+    {
+        "model": "books.book",
+        "pk": 1,
+        "fields": {
+            "title": "El Principito",
+            "author": "Antoine de Saint-Exupéry",
+            "published_year": 1943,
+            "stock": 7,
+            "description": "Una fábula filosófica que, a través de los ojos de un niño, cuestiona las prioridades del mundo adulto. Invita al lector a recuperar la capacidad de asombro y a valorar lo esencial de las relaciones humanas. Un clásico intemporal que resuena igual en la infancia que en la adultez.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 2,
+        "fields": {
+            "title": "Meditaciones",
+            "author": "Marco Aurelio",
+            "published_year": 180,
+            "stock": 6,
+            "description": "Diario personal del emperador filósofo romano, escrito como ejercicio espiritual estoico. Ofrece reflexiones sobre la virtud, la paciencia y el deber que siguen siendo profundamente útiles para afrontar la vida cotidiana. Uno de los textos de autoconocimiento más poderosos de la historia.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780140449334-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 3,
+        "fields": {
+            "title": "Sapiens: De animales a dioses",
+            "author": "Yuval Noah Harari",
+            "published_year": 2011,
+            "stock": 9,
+            "description": "Una historia abreviada de la humanidad que recorre cómo el Homo sapiens conquistó el mundo mediante la ficción compartida. Desafía al lector a repensar sus certezas sobre la civilización, la religión y el dinero. Una lectura que transforma la manera de verse a uno mismo dentro de la historia.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 4,
+        "fields": {
+            "title": "El arte de la guerra",
+            "author": "Sun Tzu",
+            "published_year": -500,
+            "stock": 8,
+            "description": "Tratado militar chino que trasciende el campo de batalla para convertirse en guía de estrategia aplicable a negocios, liderazgo y vida personal. Su brevedad y densidad conceptual permiten múltiples lecturas con nuevas revelaciones cada vez. Texto fundacional del pensamiento estratégico oriental.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781590302255-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 5,
+        "fields": {
+            "title": "Pensar rápido, pensar despacio",
+            "author": "Daniel Kahneman",
+            "published_year": 2011,
+            "stock": 7,
+            "description": "Explora los dos sistemas de pensamiento que gobiernan nuestras decisiones: el intuitivo y rápido, y el deliberado y lento. Kahneman desvela los sesgos cognitivos que distorsionan nuestros juicios y cómo podemos tomar mejores decisiones. Libro imprescindible para entender la psicología de la mente humana.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780374533557-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 6,
+        "fields": {
+            "title": "El hombre en busca de sentido",
+            "author": "Viktor Frankl",
+            "published_year": 1946,
+            "stock": 10,
+            "description": "Testimonio autobiográfico del psiquiatra austriaco sobre su experiencia en los campos de concentración nazis. A partir del horror vivido, desarrolla la logoterapia, una psicología basada en la búsqueda de sentido como fuerza vital. Una de las obras más profundas y conmovedoras del siglo XX.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780807014271-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 7,
+        "fields": {
+            "title": "1984",
+            "author": "George Orwell",
+            "published_year": 1949,
+            "stock": 8,
+            "description": "Distopía que imagina un Estado totalitario donde el lenguaje, la memoria y el pensamiento son controlados. Orwell crea conceptos como el Gran Hermano y el doblepensar que se han vuelto parte del vocabulario cultural global. Una advertencia vigente sobre el poder, la propaganda y la libertad.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 8,
+        "fields": {
+            "title": "El nombre de la rosa",
+            "author": "Umberto Eco",
+            "published_year": 1980,
+            "stock": 5,
+            "description": "Novela histórica ambientada en una abadía medieval donde una serie de crímenes desafía a un monje franciscano. Es al mismo tiempo thriller intelectual, tratado semiótico y reflexión sobre el poder del conocimiento. Una obra que recompensa al lector curioso con múltiples capas de significado.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780156001311-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 9,
+        "fields": {
+            "title": "Cosmos",
+            "author": "Carl Sagan",
+            "published_year": 1980,
+            "stock": 6,
+            "description": "Viaje apasionante por el universo que conecta la astronomía con la historia humana, la filosofía y la búsqueda de vida extraterrestre. Sagan escribe con una prosa poética que hace accesible la ciencia más compleja. Inspira humildad cósmica y asombro ante la vastedad de la existencia.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780345539434-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 10,
+        "fields": {
+            "title": "La República",
+            "author": "Platón",
+            "published_year": -380,
+            "stock": 5,
+            "description": "Diálogo fundacional de la filosofía occidental donde Sócrates y sus interlocutores debaten sobre la justicia, el poder y la ciudad ideal. Introduce la alegoría de la caverna, una de las metáforas más influyentes del pensamiento humano. Base indispensable para entender la política, la ética y la epistemología.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780872201361-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 11,
+        "fields": {
+            "title": "Crimen y castigo",
+            "author": "Fiódor Dostoyevski",
+            "published_year": 1866,
+            "stock": 6,
+            "description": "Novela psicológica que sigue a un estudiante ruso que comete un asesinato creyendo estar por encima de la moral convencional. Dostoyevski explora con maestría la culpa, el orgullo y la redención del alma humana. Una de las cumbres de la literatura universal que atrapa desde la primera página.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780143058144-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 12,
+        "fields": {
+            "title": "Cien años de soledad",
+            "author": "Gabriel García Márquez",
+            "published_year": 1967,
+            "stock": 9,
+            "description": "Saga de la familia Buendía en el pueblo imaginario de Macondo que mezcla lo real y lo maravilloso con naturalidad absoluta. Fundadora del realismo mágico latinoamericano, ofrece una visión mítica e histórica de América Latina. Premio Nobel de Literatura; lectura obligatoria de la narrativa del siglo XX.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780060883287-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 13,
+        "fields": {
+            "title": "El origen de las especies",
+            "author": "Charles Darwin",
+            "published_year": 1859,
+            "stock": 4,
+            "description": "Obra que presentó al mundo la teoría de la evolución mediante la selección natural, revolucionando la biología y el pensamiento humano. Darwin argumenta con rigor científico y claridad expositiva cómo las especies se transforman a lo largo del tiempo. Uno de los libros más influyentes jamás escritos.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780140432053-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 14,
+        "fields": {
+            "title": "La Odisea",
+            "author": "Homero",
+            "published_year": -800,
+            "stock": 5,
+            "description": "Epopeya que narra el largo y tortuoso regreso de Ulises a Ítaca tras la guerra de Troya. Es la primera gran novela de aventuras de Occidente y un mapa del alma humana frente al destino, la tentación y el hogar. Su influencia en la literatura, la filosofía y la psicología es inconmensurable.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780140268867-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 15,
+        "fields": {
+            "title": "Así habló Zaratustra",
+            "author": "Friedrich Nietzsche",
+            "published_year": 1883,
+            "stock": 6,
+            "description": "Obra central de Nietzsche en la que introduce conceptos como el superhombre, la voluntad de poder y el eterno retorno. Escrita en forma de prosa poética filosófica, desafía al lector a crear sus propios valores más allá del bien y el mal convencionales. Un libro que divide y transforma a quien lo lee.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780140441185-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 16,
+        "fields": {
+            "title": "Breve historia del tiempo",
+            "author": "Stephen Hawking",
+            "published_year": 1988,
+            "stock": 8,
+            "description": "Introducción accesible a los grandes misterios del universo: el Big Bang, los agujeros negros, el tiempo y la naturaleza del cosmos. Hawking logra explicar física teórica compleja sin recurrir a fórmulas matemáticas. Un hito de la divulgación científica que ha inspirado a millones de lectores.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 17,
+        "fields": {
+            "title": "Don Quijote de la Mancha",
+            "author": "Miguel de Cervantes",
+            "published_year": 1605,
+            "stock": 5,
+            "description": "Considerada la primera novela moderna, narra las aventuras de un hidalgo que enloquece leyendo libros de caballerías y sale a recorrer el mundo. Es una reflexión profunda sobre la realidad, la ilusión, la amistad y la dignidad humana. Obra cumbre de la literatura en lengua española.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9788437604947-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 18,
+        "fields": {
+            "title": "El mundo de Sofía",
+            "author": "Jostein Gaarder",
+            "published_year": 1991,
+            "stock": 7,
+            "description": "Historia que introduce la filosofía occidental completa a través de las cartas misteriosas que recibe una adolescente noruega. Una forma amena y lúcida de recorrer desde los presocráticos hasta Sartre sin sacrificar profundidad. El mejor punto de entrada a la historia de la filosofía para lectores de cualquier edad.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780374530716-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 19,
+        "fields": {
+            "title": "La guerra y la paz",
+            "author": "León Tolstói",
+            "published_year": 1869,
+            "stock": 4,
+            "description": "Monumental novela que entrelaza la historia de varias familias rusas con las guerras napoleónicas. Tolstói examina con profundidad sin igual el amor, la muerte, la fe y la búsqueda de sentido en la vida. Una de las obras más ambiciosas y completas de toda la literatura universal.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781400079988-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 20,
+        "fields": {
+            "title": "Siddhartha",
+            "author": "Hermann Hesse",
+            "published_year": 1922,
+            "stock": 8,
+            "description": "Novela que sigue la búsqueda espiritual de un joven brahmán en la India antigua que renuncia a todo para encontrar la iluminación. Hesse captura con belleza el camino interior hacia la sabiduría y la paz. Un libro que invita a la reflexión profunda sobre el propósito y la experiencia directa de la vida.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780553208849-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 21,
+        "fields": {
+            "title": "Ficciones",
+            "author": "Jorge Luis Borges",
+            "published_year": 1944,
+            "stock": 6,
+            "description": "Colección de cuentos que exploran laberintos, bibliotecas infinitas, sueños y paradojas del tiempo y la identidad. Borges inventa mundos imposibles con precisión matemática y prosa impecable. Una de las obras más influyentes del siglo XX que fusiona filosofía, literatura y matemáticas.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780802130303-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 22,
+        "fields": {
+            "title": "Anna Karénina",
+            "author": "León Tolstói",
+            "published_year": 1877,
+            "stock": 5,
+            "description": "Novela que explora el amor, la traición, la moral y la sociedad rusa del siglo XIX a través de la apasionada Anna y sus consecuencias. Tolstói retrata con precisión psicológica incomparable los conflictos internos y sociales de sus personajes. Un estudio magistral de la condición humana.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780143035008-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 23,
+        "fields": {
+            "title": "El proceso",
+            "author": "Franz Kafka",
+            "published_year": 1925,
+            "stock": 6,
+            "description": "Josef K. es arrestado una mañana sin que nadie le explique el cargo que se le imputa. La novela captura con maestría la angustia del individuo frente a sistemas burocráticos opacos y absurdos. Una obra que define el término kafkiano y sigue siendo profundamente relevante en el mundo moderno.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780805209990-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 24,
+        "fields": {
+            "title": "Los hermanos Karamázov",
+            "author": "Fiódor Dostoyevski",
+            "published_year": 1880,
+            "stock": 5,
+            "description": "Último y más ambicioso trabajo de Dostoyevski, que gira en torno al parricidio en una familia rusa y explora la fe, la duda, la libertad y la culpa. Cada hermano encarna una visión diferente del mundo y del alma humana. Considerada por muchos la mayor novela jamás escrita.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780374528379-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 25,
+        "fields": {
+            "title": "Sobre la brevedad de la vida",
+            "author": "Lucio Anneo Séneca",
+            "published_year": 49,
+            "stock": 7,
+            "description": "Ensayo estoico que argumenta que la vida no es corta sino que la desperdiciamos. Séneca invita al lector a recuperar el control del tiempo propio y a vivir con profundidad e intención. Una meditación filosófica de dos mil años de antigüedad sorprendentemente vigente.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780143036326-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 26,
+        "fields": {
+            "title": "El poder del ahora",
+            "author": "Eckhart Tolle",
+            "published_year": 1997,
+            "stock": 9,
+            "description": "Guía espiritual que propone que la fuente del sufrimiento humano es la identificación con la mente y el pensamiento obsesivo. Tolle enseña cómo acceder a un estado de presencia consciente que transforma la experiencia cotidiana. Ha ayudado a millones de lectores a encontrar paz interior.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781577314806-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 27,
+        "fields": {
+            "title": "Homo Deus: Breve historia del mañana",
+            "author": "Yuval Noah Harari",
+            "published_year": 2015,
+            "stock": 7,
+            "description": "Continuación de Sapiens que explora hacia dónde se dirige la humanidad en un mundo de inteligencia artificial, biotecnología e inmortalidad. Harari plantea preguntas incómodas sobre el futuro del libre albedrío y la conciencia humana. Una lectura que obliga a pensar el presente con ojos del futuro.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780062464347-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 28,
+        "fields": {
+            "title": "Walden",
+            "author": "Henry David Thoreau",
+            "published_year": 1854,
+            "stock": 5,
+            "description": "Crónica del experimento de Thoreau al vivir dos años en una cabaña a orillas del lago Walden para descubrir lo esencial de la existencia. Reflexiona sobre la naturaleza, la economía personal, la libertad y la desobediencia civil. Texto fundacional del pensamiento ecológico y la vida simple.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780691096124-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 29,
+        "fields": {
+            "title": "La metamorfosis",
+            "author": "Franz Kafka",
+            "published_year": 1915,
+            "stock": 8,
+            "description": "Relato en el que Gregorio Samsa amanece convertido en un insecto gigante, transformando la dinámica familiar y su propia identidad. Kafka usa lo absurdo para explorar la alienación, el trabajo y la soledad del individuo moderno. Una de las obras más estudiadas y comentadas de la literatura contemporánea.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780553213690-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 30,
+        "fields": {
+            "title": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "published_year": 1953,
+            "stock": 7,
+            "description": "Distopía en la que los bomberos queman libros en lugar de apagar incendios porque el conocimiento es considerado peligroso. Bradbury defiende apasionadamente el valor de la literatura, la memoria y el pensamiento crítico. Una advertencia sobre el conformismo y la superficialidad cultural.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781451673319-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 31,
+        "fields": {
+            "title": "El gran Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "published_year": 1925,
+            "stock": 6,
+            "description": "Novela que captura la grandeza y el vacío del sueño americano en los dorados años veinte. A través de Gatsby, Fitzgerald explora la obsesión, la clase social y la ilusión de reinventarse a uno mismo. Un clásico moderno que se lee como una elegía sobre la esperanza y la desilusión.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 32,
+        "fields": {
+            "title": "El arte de amar",
+            "author": "Erich Fromm",
+            "published_year": 1956,
+            "stock": 8,
+            "description": "Ensayo que argumenta que el amor no es un sentimiento pasivo sino un arte que requiere conocimiento y esfuerzo. Fromm analiza las distintas formas del amor y critica la sociedad de consumo que lo convierte en una mercancía. Un libro que transforma la manera de entender las relaciones humanas.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780062138927-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 33,
+        "fields": {
+            "title": "Rebelión en la granja",
+            "author": "George Orwell",
+            "published_year": 1945,
+            "stock": 9,
+            "description": "Fábula política en la que los animales de una granja se rebelan contra sus amos humanos con ideales revolucionarios que pronto se corrompen. Orwell hace una sátira devastadora del totalitarismo y la traición de las revoluciones. Corta, lúcida e imprescindible para entender la política del siglo XX.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 34,
+        "fields": {
+            "title": "Ética a Nicómaco",
+            "author": "Aristóteles",
+            "published_year": -350,
+            "stock": 4,
+            "description": "Obra central de la ética aristotélica que define la felicidad como la actividad del alma conforme a la virtud. Aristóteles desarrolla el concepto de eudaimonia y propone una vida de moderación, amistad y contemplación. Base de toda la tradición ética occidental posterior.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780140449495-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 35,
+        "fields": {
+            "title": "El lobo estepario",
+            "author": "Hermann Hesse",
+            "published_year": 1927,
+            "stock": 6,
+            "description": "Novela expresionista sobre Harry Haller, un intelectual que se siente dividido entre su naturaleza humana y su lado salvaje. Explora la alienación, la soledad y la búsqueda de identidad en la modernidad. Una obra perturbadora y liberadora que sacude al lector de sus certezas.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780312278670-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 36,
+        "fields": {
+            "title": "La Divina Comedia",
+            "author": "Dante Alighieri",
+            "published_year": 1320,
+            "stock": 4,
+            "description": "Poema épico que narra el viaje de Dante por el Infierno, el Purgatorio y el Paraíso guiado por Virgilio y Beatriz. Es a la vez teología, poesía, filosofía y autobiografía espiritual. Obra cumbre de la literatura italiana y del pensamiento medieval cristiano.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780142437223-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 37,
+        "fields": {
+            "title": "El alquimista",
+            "author": "Paulo Coelho",
+            "published_year": 1988,
+            "stock": 10,
+            "description": "Fábula sobre un pastor andaluz que viaja hasta Egipto en busca de un tesoro y descubre que el verdadero viaje es interior. Coelho introduce el concepto de la Leyenda Personal como misión de vida. Uno de los libros más vendidos en la historia y una lectura de inspiración universal.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 38,
+        "fields": {
+            "title": "Padre rico, padre pobre",
+            "author": "Robert T. Kiyosaki",
+            "published_year": 1997,
+            "stock": 8,
+            "description": "Contrasta las mentalidades financieras de dos padres para enseñar por qué los ricos no trabajan por dinero sino que hacen que el dinero trabaje para ellos. Introduce conceptos de activos, pasivos y educación financiera de forma simple y narrativa. Ha transformado la relación con el dinero de millones de lectores.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 39,
+        "fields": {
+            "title": "Los miserables",
+            "author": "Victor Hugo",
+            "published_year": 1862,
+            "stock": 5,
+            "description": "Épica novela que sigue a Jean Valjean, ex presidiario que busca redimirse en una Francia convulsa del siglo XIX. Hugo entrelaza la historia social, el amor y la justicia en una narrativa que conmueve profundamente. Un monumento de la literatura francesa y un alegato eterno por la dignidad humana.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780451419439-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 40,
+        "fields": {
+            "title": "Fluir: La psicología de la experiencia óptima",
+            "author": "Mihaly Csikszentmihalyi",
+            "published_year": 1990,
+            "stock": 6,
+            "description": "Presenta el concepto de flujo como el estado mental de máxima concentración y satisfacción en el que el tiempo desaparece. Csikszentmihalyi muestra cómo diseñar actividades y entornos que generen experiencias óptimas. Libro fundamental para entender la creatividad, la felicidad y el rendimiento humano.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780061339202-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 41,
+        "fields": {
+            "title": "Frankenstein",
+            "author": "Mary Shelley",
+            "published_year": 1818,
+            "stock": 7,
+            "description": "Primera novela de ciencia ficción de la historia, en la que el Dr. Frankenstein crea vida artificial y enfrenta las consecuencias éticas. Explora los límites de la ciencia, la responsabilidad del creador y el rechazo al diferente. Una obra que sigue siendo pertinente ante los dilemas de la biotecnología moderna.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780143131847-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 42,
+        "fields": {
+            "title": "El hombre más rico de Babilonia",
+            "author": "George S. Clason",
+            "published_year": 1926,
+            "stock": 9,
+            "description": "A través de parábolas ambientadas en la antigua Babilonia, enseña principios atemporales de ahorro, inversión y creación de riqueza. Sus consejos sobre guardar una décima parte de los ingresos y hacer que el dinero trabaje siguen siendo aplicables hoy. Un clásico de las finanzas personales.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780451205360-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 43,
+        "fields": {
+            "title": "Ser y tiempo",
+            "author": "Martin Heidegger",
+            "published_year": 1927,
+            "stock": 3,
+            "description": "Obra maestra del existencialismo que analiza la estructura del ser humano como ser-en-el-mundo y su relación con el tiempo y la muerte. Heidegger introduce conceptos como la autenticidad, el cuidado y el Dasein que transformaron la filosofía del siglo XX. Lectura desafiante pero formativa para cualquier filósofo.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780061575594-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 44,
+        "fields": {
+            "title": "El retrato de Dorian Gray",
+            "author": "Oscar Wilde",
+            "published_year": 1890,
+            "stock": 7,
+            "description": "Novela gótica en la que un joven hermoso vende su alma para que un retrato envejezca en su lugar mientras él permanece joven. Wilde explora la vanidad, la corrupción moral y el hedonismo con un estilo brillante e irónico. Una meditación sobre el precio de la belleza y la ausencia de consecuencias.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780141439570-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 45,
+        "fields": {
+            "title": "El diario de Ana Frank",
+            "author": "Ana Frank",
+            "published_year": 1947,
+            "stock": 8,
+            "description": "Diario que una adolescente judía escribió mientras se escondía de los nazis en Ámsterdam durante la Segunda Guerra Mundial. Es un testimonio de esperanza, madurez y humanidad en las circunstancias más oscuras. Una de las obras más leídas del mundo y símbolo eterno contra la intolerancia.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780553296983-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 46,
+        "fields": {
+            "title": "La interpretación de los sueños",
+            "author": "Sigmund Freud",
+            "published_year": 1899,
+            "stock": 5,
+            "description": "Obra fundacional del psicoanálisis en la que Freud propone que los sueños son la vía regia al inconsciente. Analiza los mecanismos de condensación, desplazamiento y simbolismo onírico con exhaustividad. Transformó radicalmente la comprensión de la psique humana en el siglo XX.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780380010340-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 47,
+        "fields": {
+            "title": "Alas de paloma",
+            "author": "Chimamanda Ngozi Adichie",
+            "published_year": 2003,
+            "stock": 6,
+            "description": "Novela que explora la identidad, el amor y las heridas coloniales en Nigeria a través de personajes femeninos de extraordinaria profundidad. Adichie combina una prosa luminosa con una mirada política aguda sobre género, raza y familia. Una escritora imprescindible de la literatura africana contemporánea.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781400095209-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 48,
+        "fields": {
+            "title": "Dune",
+            "author": "Frank Herbert",
+            "published_year": 1965,
+            "stock": 7,
+            "description": "Novela de ciencia ficción épica ambientada en el planeta desértico Arrakis, donde el control de una especia psicoactiva determina el destino del universo. Herbert teje política, ecología, religión y poder en una narrativa de una profundidad sin igual en el género. Considerada la mayor obra de la ciencia ficción.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780441013593-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 49,
+        "fields": {
+            "title": "El conde de Montecristo",
+            "author": "Alexandre Dumas",
+            "published_year": 1844,
+            "stock": 6,
+            "description": "Aventura épica sobre Edmond Dantès, un marino injustamente encarcelado que escapa y construye una identidad nueva para tomar venganza. Dumas teje una trama de intriga, justicia y redención que mantiene al lector en vilo durante toda la novela. Una de las novelas de aventuras más apasionantes de todos los tiempos.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780140449266-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 50,
+        "fields": {
+            "title": "El gen egoísta",
+            "author": "Richard Dawkins",
+            "published_year": 1976,
+            "stock": 5,
+            "description": "Reencuadra la evolución desde la perspectiva del gen como unidad de selección natural, introduciendo conceptos como el meme y el altruismo egoísta. Dawkins hace accesible la biología evolutiva sin sacrificar rigor científico. Uno de los libros de ciencia más influyentes e impactantes del siglo XX.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780198788607-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 51,
+        "fields": {
+            "title": "Orgullo y prejuicio",
+            "author": "Jane Austen",
+            "published_year": 1813,
+            "stock": 8,
+            "description": "Novela sobre Elizabeth Bennet y Mr. Darcy que examina el matrimonio, la clase social y los prejuicios en la Inglaterra del siglo XIX. Austen usa el humor y la ironía para construir una crítica social sofisticada. Una de las novelas románticas más queridas y estudiadas de la literatura inglesa.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 52,
+        "fields": {
+            "title": "El extranjero",
+            "author": "Albert Camus",
+            "published_year": 1942,
+            "stock": 8,
+            "description": "Novela que sigue a Meursault, un hombre indiferente ante la muerte de su madre y que comete un crimen sin motivación aparente. Camus encarna el absurdo existencial: la tensión entre la necesidad humana de significado y el silencio del universo. Obra fundacional del existencialismo francés.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780679720201-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 53,
+        "fields": {
+            "title": "Principios: Vida y trabajo",
+            "author": "Ray Dalio",
+            "published_year": 2017,
+            "stock": 7,
+            "description": "El fundador de Bridgewater Associates comparte los principios que guiaron su vida y la gestión del mayor fondo de cobertura del mundo. Propone un sistema para la toma de decisiones radical y la construcción de culturas de transparencia. Una guía práctica y filosófica para líderes y personas que buscan claridad.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781501124020-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 54,
+        "fields": {
+            "title": "La peste",
+            "author": "Albert Camus",
+            "published_year": 1947,
+            "stock": 6,
+            "description": "Novela ambientada en una ciudad argelina asolada por una epidemia que funciona como metáfora del mal, la resistencia y la solidaridad humana. Camus explora cómo los individuos responden ante el sufrimiento colectivo con heroísmo cotidiano. Profundamente vigente en tiempos de pandemia y crisis.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780679720218-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 55,
+        "fields": {
+            "title": "El cerebro del niño",
+            "author": "Daniel J. Siegel",
+            "published_year": 2011,
+            "stock": 7,
+            "description": "Guía práctica basada en la neurociencia para entender cómo se desarrolla el cerebro infantil y cómo los padres pueden potenciarlo. Siegel ofrece estrategias concretas para convertir momentos difíciles en oportunidades de aprendizaje emocional. Imprescindible para padres, educadores y cualquiera interesado en la mente.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780553386691-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 56,
+        "fields": {
+            "title": "El universo elegante",
+            "author": "Brian Greene",
+            "published_year": 1999,
+            "stock": 5,
+            "description": "Introducción accesible a la teoría de supercuerdas como candidata a una teoría del todo que unifique la física cuántica y la relatividad. Greene usa analogías brillantes para hacer comprensibles conceptos de geometría dimensional extrema. Una ventana fascinante al borde más especulativo de la física teórica.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780393338102-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 57,
+        "fields": {
+            "title": "Confesiones",
+            "author": "San Agustín",
+            "published_year": 400,
+            "stock": 4,
+            "description": "Autobiografía espiritual del filósofo cristiano que narra su conversión desde una vida de placer hasta la fe católica. Es el primer gran libro de introspección psicológica de la historia occidental. Su frase nuestro corazón está inquieto hasta que descansa en ti sigue resonando siglos después.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780140441147-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 58,
+        "fields": {
+            "title": "Cartas a un joven poeta",
+            "author": "Rainer Maria Rilke",
+            "published_year": 1929,
+            "stock": 7,
+            "description": "Diez cartas que el gran poeta checo escribió a un joven aspirante, reflexionando sobre la creación artística, la soledad y la vida interior. Con una prosa poética excepcional, Rilke invita a abrazar la incertidumbre y a vivir las preguntas en lugar de buscar respuestas fáciles. Una guía para artistas y buscadores.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780393310399-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 59,
+        "fields": {
+            "title": "Matar a un ruiseñor",
+            "author": "Harper Lee",
+            "published_year": 1960,
+            "stock": 8,
+            "description": "Novela narrada desde los ojos de una niña en el sur de Estados Unidos cuyo padre, Atticus Finch, defiende a un hombre negro injustamente acusado. Explora el racismo, la justicia y la pérdida de la inocencia con profundidad moral. Premio Pulitzer y una de las novelas más queridas de la literatura americana.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780061743528-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 60,
+        "fields": {
+            "title": "La mente del líder",
+            "author": "Rasmus Hougaard",
+            "published_year": 2018,
+            "stock": 6,
+            "description": "Propone que el liderazgo efectivo del siglo XXI se basa en mindfulness, desinterés y compasión en lugar de ego y control. Basado en investigación con miles de ejecutivos globales, ofrece un marco para liderar con presencia y propósito. Un libro que reconcilia el rendimiento con el bienestar.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781633693pictured-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 61,
+        "fields": {
+            "title": "En busca del tiempo perdido (Vol. 1: Por el camino de Swann)",
+            "author": "Marcel Proust",
+            "published_year": 1913,
+            "stock": 4,
+            "description": "Primer volumen de la novela más larga de la literatura universal, que explora la memoria involuntaria, el tiempo y la identidad. La famosa magdalena mojada en té desencadena una exploración del pasado de una profundidad sin precedentes. Una obra que transforma la manera de entender la experiencia subjetiva.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780300180275-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 62,
+        "fields": {
+            "title": "Rayuela",
+            "author": "Julio Cortázar",
+            "published_year": 1963,
+            "stock": 5,
+            "description": "Novela experimental que puede leerse en orden lineal o saltando capítulos según un mapa propuesto por el autor. Cortázar rompe con las convenciones narrativas para explorar el amor, la filosofía y la búsqueda de identidad en París y Buenos Aires. Un juego literario exigente y liberador a la vez.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780307474728-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 63,
+        "fields": {
+            "title": "Pensar en sistemas",
+            "author": "Donella H. Meadows",
+            "published_year": 2008,
+            "stock": 6,
+            "description": "Introducción al pensamiento sistémico que enseña a identificar los bucles de retroalimentación, los stocks y los flujos que gobiernan el comportamiento de sistemas complejos. Meadows muestra cómo aplicar este pensamiento a la economía, la ecología y la política. Una herramienta intelectual transformadora.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781603580557-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 64,
+        "fields": {
+            "title": "Los cuatro acuerdos",
+            "author": "Miguel Ruiz",
+            "published_year": 1997,
+            "stock": 9,
+            "description": "Basado en la sabiduría tolteca, propone cuatro compromisos para transformar la vida: ser impecable con las palabras, no tomar nada personal, no hacer suposiciones y siempre dar lo mejor de uno mismo. Su sencillez oculta una profundidad filosófica genuina. Un libro de autoayuda con raíces espirituales auténticas.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9781878424549-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 65,
+        "fields": {
+            "title": "Pedro Páramo",
+            "author": "Juan Rulfo",
+            "published_year": 1955,
+            "stock": 6,
+            "description": "Novela en la que Juan Preciado viaja a Comala para encontrar a su padre y descubre un pueblo habitado solo por muertos y ecos del pasado. Rulfo crea una obra que mezcla realismo, mito y poesía en una estructura temporal fragmentada. Considerada la cima de la literatura mexicana del siglo XX.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780802133908-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 66,
+        "fields": {
+            "title": "La estructura de las revoluciones científicas",
+            "author": "Thomas S. Kuhn",
+            "published_year": 1962,
+            "stock": 5,
+            "description": "Libro que introdujo el concepto de paradigma científico y mostró cómo la ciencia avanza no de forma acumulativa sino mediante revoluciones disruptivas. Kuhn cambió para siempre la filosofía e historia de la ciencia. Esencial para entender cómo funciona realmente el conocimiento y su transformación.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780226458083-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 67,
+        "fields": {
+            "title": "Inteligencia emocional",
+            "author": "Daniel Goleman",
+            "published_year": 1995,
+            "stock": 8,
+            "description": "Argumenta que el coeficiente emocional puede ser más determinante que el intelectual en el éxito personal y profesional. Goleman sistematiza las competencias de la inteligencia emocional: autoconciencia, autorregulación, motivación, empatía y habilidades sociales. Un libro que cambió la psicología aplicada y el liderazgo.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780553383713-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 68,
+        "fields": {
+            "title": "El camino del artista",
+            "author": "Julia Cameron",
+            "published_year": 1992,
+            "stock": 7,
+            "description": "Curso de doce semanas para recuperar la creatividad bloqueada mediante herramientas como las páginas matutinas y las citas con el artista interior. Cameron combina espiritualidad, psicología y práctica artística con resultados transformadores. El libro de referencia para superar el bloqueo creativo.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780874778236-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 69,
+        "fields": {
+            "title": "Ulises",
+            "author": "James Joyce",
+            "published_year": 1922,
+            "stock": 3,
+            "description": "Novela que narra un único día en Dublín a través de la conciencia de Leopold Bloom, su esposa Molly y el joven Stephen Dedalus. Joyce reinventa el lenguaje narrativo con técnicas como el monólogo interior y el flujo de conciencia. Cumbre del modernismo literario y uno de los mayores retos para cualquier lector.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780679722762-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 70,
+        "fields": {
+            "title": "Armas, gérmenes y acero",
+            "author": "Jared Diamond",
+            "published_year": 1997,
+            "stock": 6,
+            "description": "Explica por qué algunas civilizaciones dominaron a otras mediante factores geográficos y ecológicos, no diferencias raciales. Diamond analiza cómo la disponibilidad de plantas y animales domesticables determinó el destino de los continentes. Premio Pulitzer y lectura obligatoria para entender la historia global.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780393317558-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 71,
+        "fields": {
+            "title": "Las uvas de la ira",
+            "author": "John Steinbeck",
+            "published_year": 1939,
+            "stock": 6,
+            "description": "Novela sobre la familia Joad, campesinos que huyen de la miseria del Dust Bowl en Oklahoma hacia California durante la Gran Depresión. Steinbeck retrata con compasión devastadora la lucha de los más vulnerables frente a la injusticia económica. Premio Pulitzer y uno de los grandes monumentos de la literatura social.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780143039433-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 72,
+        "fields": {
+            "title": "La sociedad abierta y sus enemigos",
+            "author": "Karl Popper",
+            "published_year": 1945,
+            "stock": 4,
+            "description": "Crítica filosófica al historicismo y al totalitarismo que defiende la democracia liberal y el pensamiento crítico como base de una sociedad libre. Popper analiza a Platón, Hegel y Marx como precursores del pensamiento cerrado. Obra fundamental de la filosofía política del siglo XX.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780691019680-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 73,
+        "fields": {
+            "title": "La llamada de lo salvaje",
+            "author": "Jack London",
+            "published_year": 1903,
+            "stock": 7,
+            "description": "Historia del perro Buck, domesticado en California, que es llevado al salvaje norte de Canadá durante la fiebre del oro y redescubre sus instintos primitivos. London explora los temas de la supervivencia, la libertad y la naturaleza animal con una prosa directa y emotiva. Clásico de la literatura de aventura.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780142437049-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 74,
+        "fields": {
+            "title": "El estoicismo y el arte de vivir",
+            "author": "Epicteto",
+            "published_year": 125,
+            "stock": 7,
+            "description": "El Enchiridion o Manual de Epicteto recoge las máximas del filósofo esclavo que enseñó que la libertad reside en la distinción entre lo que depende de nosotros y lo que no. Sus enseñanzas son el núcleo del estoicismo práctico y la base del moderno coaching cognitivo. Breve, denso y transformador.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780140442014-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 75,
+        "fields": {
+            "title": "La montaña mágica",
+            "author": "Thomas Mann",
+            "published_year": 1924,
+            "stock": 4,
+            "description": "Hans Castorp visita a su primo en un sanatorio suizo y acaba quedándose siete años, fascinado por los debates filosóficos entre los enfermos. Mann usa el microcosmos del sanatorio para examinar la cultura europea antes de la Primera Guerra Mundial. Una novela de ideas de una riqueza intelectual extraordinaria.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780679772873-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 76,
+        "fields": {
+            "title": "Invisible Man",
+            "author": "Ralph Ellison",
+            "published_year": 1952,
+            "stock": 5,
+            "description": "Novela sobre un hombre negro en América que narra su vida desde el sur segregado hasta el norte urbano y su invisibilidad social. Ellison explora con brillantez literaria la identidad, el racismo y la búsqueda de reconocimiento. Premio Nacional del Libro en EE. UU. y obra central de la literatura afroamericana.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780679732761-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 77,
+        "fields": {
+            "title": "El espejo del mar",
+            "author": "Joseph Conrad",
+            "published_year": 1906,
+            "stock": 4,
+            "description": "Ensayos autobiográficos de Conrad sobre sus años como marinero que exploran la relación del hombre con el mar, el viento y la nave. Escritos con una prosa de belleza excepcional, revelan una filosofía profunda sobre el trabajo, el carácter y la lealtad. Una obra menor de Conrad que ofrece joyas de sabiduría.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780140180701-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 78,
+        "fields": {
+            "title": "El colapso de las civilizaciones complejas",
+            "author": "Joseph Tainter",
+            "published_year": 1988,
+            "stock": 4,
+            "description": "Analiza por qué las civilizaciones complejas colapsan, argumentando que la complejidad misma tiene rendimientos decrecientes hasta volverse insostenible. Tainter estudia Roma, los mayas y otras civilizaciones para extraer un patrón universal de declive. Lectura inquietante y rigurosa sobre los límites del progreso.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780521386739-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 79,
+        "fields": {
+            "title": "Guns, Germs, and Steel",
+            "author": "Jared Diamond",
+            "published_year": 1997,
+            "stock": 5,
+            "description": "Edición original en inglés del estudio sobre las causas ambientales del dominio occidental sobre el mundo. Analiza cómo la geografía, no la biología racial, explica las diferencias en desarrollo entre civilizaciones. Un argumento riguroso y humanista para entender la historia desde una perspectiva global.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780393354323-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 80,
+        "fields": {
+            "title": "Las aventuras de Huckleberry Finn",
+            "author": "Mark Twain",
+            "published_year": 1884,
+            "stock": 7,
+            "description": "Novela sobre un niño que huye de su padre abusivo y navega el río Misisipi con Jim, un esclavo fugitivo. Twain usa el humor y el dialecto vernáculo americano para hacer una crítica demoledora de la hipocresía y el racismo sureño. Hemingway afirmó que toda la literatura americana proviene de este libro.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780142437179-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 81,
+        "fields": {
+            "title": "El mito de Sísifo",
+            "author": "Albert Camus",
+            "published_year": 1942,
+            "stock": 6,
+            "description": "Ensayo filosófico que confronta la pregunta de si la vida merece ser vivida en un universo sin sentido inherente. Camus argumenta que hay que imaginar a Sísifo feliz y propone la rebelión como respuesta al absurdo. Texto fundacional del pensamiento existencialista y una guía para vivir sin ilusiones pero con plenitud.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780679733737-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 82,
+        "fields": {
+            "title": "Hábitos atómicos",
+            "author": "James Clear",
+            "published_year": 2018,
+            "stock": 10,
+            "description": "Sistema práctico para construir buenos hábitos y eliminar los malos mediante pequeños cambios del 1% que se componen exponencialmente. Clear integra psicología conductual, neurociencia y filosofía en un marco aplicable de inmediato. El libro de productividad personal más vendido de la última década.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 83,
+        "fields": {
+            "title": "Mientras agonizo",
+            "author": "William Faulkner",
+            "published_year": 1930,
+            "stock": 4,
+            "description": "Novela narrada desde quince voces distintas que relatan el traslado del cadáver de Addie Bundren a través del sur profundo americano. Faulkner usa el monólogo interior y el flujo de conciencia para revelar la complejidad psicológica de cada personaje. Una obra técnicamente innovadora y emocionalmente devastadora.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780679748671-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 84,
+        "fields": {
+            "title": "El hombre en busca del alma",
+            "author": "Carl Gustav Jung",
+            "published_year": 1933,
+            "stock": 5,
+            "description": "Ensayos en los que Jung reflexiona sobre la psicología analítica, el inconsciente colectivo y la necesidad espiritual del ser humano moderno. Critica la racionalidad excesiva del siglo XX y propone el autoconocimiento como camino de individuación. Una introducción esencial al pensamiento junguiano.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780156442909-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 85,
+        "fields": {
+            "title": "La náusea",
+            "author": "Jean-Paul Sartre",
+            "published_year": 1938,
+            "stock": 6,
+            "description": "Primera novela de Sartre, en la que Antoine Roquentin experimenta una angustia existencial ante la contingencia radical de la existencia. Es la dramatización literaria de los principios del existencialismo sartreano: la existencia precede a la esencia. Una novela filosófica densa y perturbadoramente contemporánea.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780811201000-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 86,
+        "fields": {
+            "title": "La revolución de las hormigas",
+            "author": "Bernard Werber",
+            "published_year": 1991,
+            "stock": 7,
+            "description": "Novela que alterna la narrativa de una civilización de hormigas con la de humanos que descubren su mundo subterráneo. Werber reflexiona sobre la inteligencia colectiva, la evolución y la comunicación entre especies. Una lectura que expande la perspectiva del lector sobre la vida y la organización social.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780553374599-L.jpg"
+        }
+    },
+    {
+        "model": "books.book",
+        "pk": 87,
+        "fields": {
+            "title": "El jardín de los Finzi-Contini",
+            "author": "Giorgio Bassani",
+            "published_year": 1962,
+            "stock": 5,
+            "description": "Novela que narra la historia de una familia judía aristocrática en Ferrara, Italia, durante el ascenso del fascismo y la persecución.",
+            "cover_url": "https://covers.openlibrary.org/b/isbn/9780679748671-L.jpg"
+        }
+    }
+]
