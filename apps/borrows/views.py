@@ -1,3 +1,4 @@
+from drf_spectacular.utils import extend_schema
 from rest_framework import viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
@@ -9,17 +10,20 @@ from .repositories import BorrowRepository
 
 class BorrowViewSet(viewsets.ViewSet):
 
+    @extend_schema(responses=BorrowSerializer(many=True))
     def list(self, request):
         borrows = BorrowRepository.get_all()
         serializer = BorrowSerializer(borrows, many=True)
         return Response(serializer.data)
 
+    @extend_schema(responses=BorrowSerializer)
     def retrieve(self, request, pk=None):
         borrow = BorrowRepository.get_by_id(pk)
         if borrow is None:
             return Response({'detail': 'No encontrado.'}, status=status.HTTP_404_NOT_FOUND)
         return Response(BorrowSerializer(borrow).data)
 
+    @extend_schema(request=BorrowSerializer, responses={201: BorrowSerializer})
     @action(detail=False, methods=['post'], url_path='create_borrow')
     def create_borrow(self, request):
         user_id = request.data.get('user')
@@ -39,6 +43,7 @@ class BorrowViewSet(viewsets.ViewSet):
 
         return Response(BorrowSerializer(borrow).data, status=status.HTTP_201_CREATED)
 
+    @extend_schema(request=None, responses=BorrowSerializer)
     @action(detail=True, methods=['patch'], url_path='return_book')
     def return_book(self, request, pk=None):
         try:

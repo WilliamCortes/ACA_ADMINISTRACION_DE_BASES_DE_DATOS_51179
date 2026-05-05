@@ -84,8 +84,16 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://129.213.125.205.nip.io',
+    'http://129.213.125.205.nip.io',
+]
+
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ],
 }
 
 SPECTACULAR_SETTINGS = {
@@ -93,4 +101,5 @@ SPECTACULAR_SETTINGS = {
     'DESCRIPTION': 'API REST para gestión de biblioteca — libros, usuarios y préstamos.',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
+    'SECURITY': [],
 }
